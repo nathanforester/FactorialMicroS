@@ -1,0 +1,9 @@
+Flask
+Flask-Testing
+Werkzeug
+pytest
+pytest-cov
+requests
+requests-mock
+jinja2
+itsdangerous

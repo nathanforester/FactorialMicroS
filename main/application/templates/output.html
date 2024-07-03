@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Maths Stuff</title>
+</head>
+<body>
+    <h1>Number entered: {{ originalInput }}</h1>
+    <h2>3 or 5? Or both? Or Not?: {{ threeFive }}</h2>
+    <h3>Are you PRIME?: {{ reversePrime }}</h3>
+    <form method="post" mimetype='application/json' action='{{url_for("index")}}'>
+        <!-- <img src="image.png" alt="Description for image" width="250" height="250"> -->
+       <p><input type="submit" value="Start Again" /></p>
+    </form>
+</body>
+</html>
